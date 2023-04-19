@@ -1,0 +1,555 @@
+@media (min-width: 0px) and (max-width: 767px) {
+    .wrapper{
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
+
+    .top-header{
+        padding-top: 10px;
+    }
+
+    .first-page {
+        border-bottom: 1px solid #d3d3d3;
+        border-top: 0 !important;
+        border-left: 0 !important;
+        border-right: 0 !important;
+    }
+
+    .secondary-news {
+        border-bottom: 1px solid #d3d3d3;
+        border-top: 0 !important;
+        border-left: 0 !important;
+        border-right: 0 !important;
+    }
+
+    .third-news{
+        border-bottom: 1px solid #d3d3d3;
+        border-top: 0 !important;
+        border-left: 0 !important;
+        border-right: 0 !important;
+    }
+
+    .scrollmenu{
+        display: none !important;
+    }
+
+    .signin-button{
+        display: none !important;
+    }
+
+    .select{
+        display: none !important;
+    }
+
+    .form-select{
+        display: none !important;
+    }
+
+    .scroll-sign-icon{
+        display: none !important;
+    }
+
+    .wnews:nth-child(1){
+        border-bottom: 1px solid #d3d3d3;
+        border-top: 0 !important;
+        border-left: 0 !important;
+        border-right: 1px solid #d3d3d3;
+    }
+
+    .wnews:nth-child(2){
+        border-bottom: 1px solid #d3d3d3;
+        border-top: 0 !important;
+        border-right: 0 !important;
+        border-left: 1px solid #d3d3d3;
+    }
+    .wnews:nth-child(3){
+        border-bottom: 0 !important;
+        border-top: 1px solid #d3d3d3 ;
+        border-left: 0 !important;
+        border-right: 1px solid #d3d3d3;
+    }
+    .wnews:nth-child(4){
+        border-bottom: 0 !important ;
+        border-top: 1px solid #d3d3d3;
+        border-left: 1px solid #d3d3d3;
+        border-right: 0 !important;
+    }
+
+    .mnews{
+        border-bottom: 1px solid #d3d3d3;
+        border-top: 0 !important;
+        border-left: 0 !important;
+        border-right: 0 !important;
+    }
+
+    .mnews:last-child{
+        border: 0 !important;
+    }
+
+    .newsletter{
+        border-bottom: 1px solid black;
+        border-top: 0 !important;
+        border-left: 0 !important;
+        border-right: 0 !important;
+    }
+
+    .archive{
+        border-bottom: 1px solid black;
+        border-top: 0 !important;
+        border-left: 0 !important;
+        border-right: 0 !important;
+    }
+
+    .app-download{
+        border-bottom: 1px solid black;
+        border-top: 0 !important;
+        border-left: 0 !important;
+        border-right: 0 !important;
+    }
+
+    .download-icon{
+        width:20%;
+    }
+
+    .foot-sub{
+        border-bottom: 1px solid black;
+        border-top: 0 !important;
+        border-left: 0 !important;
+        border-right: 0 !important;
+    }
+
+    .ediciones{
+        border-bottom: 1px solid black;
+        border-top: 0 !important;
+        border-left: 0 !important;
+        border-right: 0 !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .first-page{
+        border-bottom: 0 !important;
+        border-top: 0 !important;
+        border-left: 0 !important;
+        border-right: 1px solid #d3d3d3;
+    }
+
+    .secondary-news:first-child {
+        border-bottom: 1px solid #d3d3d3;
+        border-top: 0 !important;
+        border-left: 0 !important;
+        border-right: 0 !important;
+    }
+
+    .secondary-news:not(:first-child){
+        border-bottom: 0 !important;
+        border-top: 0 !important;
+        border-left: 0 !important;
+        border-right: 0!important;
+    }
+
+
+
+    .third-news{
+        border-bottom: 0 !important;
+        border-top: 0 !important;
+        border-left: 0 !important;
+        border-right: 1px solid #d3d3d3;
+    }
+
+    .third-page{
+        border-top: 1px solid #d3d3d3;
+    }
+
+    .newsletter{
+        border-bottom: 0 !important;
+        border-top: 0 !important;
+        border-left: 0 !important;
+        border-right: 1px solid black;
+    }
+
+    .archive{
+        border-right: 1px solid lightgrey !important;
+        border-top: 0 !important;
+        border-left: 0 !important;
+        border-bottom: 0 !important;
+        max-width: 60%;
+    }
+
+    .archive-image{
+        width: 80%;
+    }
+
+    .app-download{
+        border-bottom: 1px solid lightgrey;
+        border-top: 0 !important;
+        border-left: 0 !important;
+        border-right: 0 !important;
+        height: 60%;
+    }
+
+    .download-icon{
+        width:40%;
+    }
+
+    .foot-sub{
+        border-bottom: 1px solid black;
+        border-top: 0 !important;
+        border-left: 0 !important;
+        border-right: 0 !important;
+    }
+
+    .ediciones{
+        border-bottom: 1px solid black;
+        border-top: 0 !important;
+        border-left: 0 !important;
+        border-right: 0 !important;
+    }
+}
+@media (min-width: 768px){
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .scroll-log-icon{
+        display: none !important;
+    }
+
+    .log-icon{
+        visibility: hidden;
+    }
+
+    .wnews:last-child{
+        border: 0 !important;
+    }
+
+    .wnews{
+        border-bottom: 0 !important;
+        border-top: 0 !important;
+        border-left: 0 !important;
+        border-right: 1px solid #d3d3d3;
+    }
+
+    .mnews{
+        border-bottom: 1px solid #d3d3d3;
+        border-top: 0 !important;
+        border-left: 0 !important;
+        border-right: 1px solid #d3d3d3;
+    }
+
+    .mnews:last-child{
+        border-bottom: 0 !important;
+    }
+
+    .mnews:nth-child(7){
+        border-bottom: 0 !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .container-fluid{
+        max-width: 1200px;
+    }
+
+    .first-page{
+        border-bottom: 0 !important;
+        border-top: 0 !important;
+        border-left: 0 !important;
+        border-right: 1px solid #d3d3d3;
+    }
+
+    .secondary-news:first-child {
+        border-bottom: 1px solid #d3d3d3;
+        border-top: 0 !important;
+        border-left: 0 !important;
+        border-right: 0 !important;
+    }
+
+    .secondary-news:nth-child(2){
+        border-bottom: 0 !important;
+        border-top: 0 !important;
+        border-left: 0 !important;
+        border-right: 0!important;
+    }
+
+    .third-news{
+        border: 0 !important;
+    }
+
+    .third-page{
+        border-bottom: 0 !important;
+        border-top: 0 !important;
+        border-left: 1px solid #d3d3d3;
+        border-right: 0 !important ;
+    }
+
+    .log-icon{
+        visibility: hidden !important;
+    }
+
+    .newsletter{
+        border-bottom: 0 !important;
+        border-top: 0 !important;
+        border-left: 0 !important;
+        border-right: 1px solid black;
+    }
+
+    .archive{
+        border-right: 1px solid lightgrey !important;
+        border-top: 0 !important;
+        border-left: 0 !important;
+        border-bottom: 0 !important;
+        max-width: 60%;
+    }
+
+    .archive-image{
+        width: 80%;
+    }
+
+    .app-download{
+        border-bottom: 1px solid lightgrey;
+        border-top: 0 !important;
+        border-left: 0 !important;
+        border-right: 0 !important;
+        height: 60%;
+    }
+
+    .download-icon{
+        width:40%;
+    }
+
+    .foot-sub{
+        border-left: 1px solid lightgrey !important;
+        border-top: 0 !important;
+        border-right: 0 !important;
+        border-bottom: 0 !important;
+    }
+
+    .ediciones{
+        border-bottom: 0 !important;
+        border-top: 1px solid black;
+        border-left: 0 !important;
+        border-right: 1px solid lightgrey !important;
+    }
+
+    .prisa{
+        border-bottom: 0 !important;
+        border-top: 1px solid black;
+        border-left: 0 !important;
+        border-right: 0 !important;
+    }
+}
+
+
+
+p{
+    font-family: MajritTx,serif;
+    font-weight: lighter;
+}
+
+h5{
+    font-family: MajritTx,serif;
+    font-weight: 900;
+}
+
+.closing-title{
+    font-family: MajritTx,serif;
+    font-weight: 900;
+}
+
+.world-header{
+    font-family: MajritTx,serif;
+}
+
+.wnews{
+    font-family: MajritTx,serif;
+}
+
+.newsletter-title{
+    font-family:MajritTx,serif;
+    font-weight: bold;
+}
+
+.footer-header{
+    font-family: MajritTx,serif;
+    font-weight: bold;
+}
+
+h4{
+    font-family: MajritTx,serif;
+    font-weight: 900;
+}
+
+.ediciones-title{
+    font-family:MarcinAntB,sans-serif;
+    font-weight: bold;
+}
+
+.copyright{
+    font-family:MarcinAntB,sans-serif;
+    font-size:.6875rem;
+}
+
+.whitespace{
+    height: 100px;
+    background-color: white;
+}
+
+.top-header{
+    padding-left:20px;
+    padding-right:20px;
+
+}
+
+.container-fluid{
+    padding-top:100px;
+}
+
+.button{
+    border-color: white;
+}
+
+.subscribe-button{
+    border: 0 !important;
+}
+
+.signin-button{
+    border-style: solid !important;
+    color: black !important;
+}
+.scroll-sub-icon{
+    border: 0 !important;
+    color: black !important;
+}
+
+.scroll-sign-icon{
+    border-style: solid !important;
+    color: black !important;
+}
+
+.language{
+    border: 1px solid lightgrey !important;
+}
+
+.navbar{
+    width:100%;
+    min-width: 100%;
+    height: 100px;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #d3d3d3;
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+.scrollnav{
+    height:50px;
+}
+
+.navbar-subscribe-button{
+    display: none ;
+}
+
+div.scrollmenu {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    font-size: 0.8em;
+    padding:0.5em;
+    display: inline-block;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: #d3d3d3;
+}
+
+.breadcrumb{
+    background-color: #ffffff !important;
+    color: lightgrey;
+    padding:0;
+    margin:0;
+    font-size: 0.7em !important;
+}
+
+.card{
+    padding: 0.5em;
+}
+
+.front-news{
+    padding-top: 50px;
+    border-bottom: 3px double black;
+    padding-bottom: 5em;
+}
+
+.second-page{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.world-header{
+    width:100%;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 0;
+    border-bottom: 1px solid #000000;
+    border-top: 10px solid #000000;
+}
+
+.world-title{
+    font-size: 1.5em;
+    padding:0;
+    border-bottom: 5px solid #000000;
+}
+
+.world-news{
+    padding-top:20px;
+    border-bottom: 3px double black;
+    padding-bottom: 5em;
+}
+
+.more-news{
+    max-width: 768px;
+    padding-bottom: 5em;
+}
+
+.footer{
+    border-top: 3px double black;
+    padding-top:50px;
+}
+
+.newsletter-header{
+    border-bottom: 1px solid #000000;
+}
+
+.newsletter-title {
+    font-size: 1em;
+    padding: 0;
+    border-bottom: 5px solid #000000;
+}
+
+.footer-subscribe{
+    background-color: lightyellow;
+}
+
+.prisa{
+    max-height: 100px;
+}
+
+.prisa-image{
+    height:80%;
+    background-image: url("https://www.prisa.com/wp-content/uploads/2019/01/PRISA-LOGO-2019-1.png");
+}
+
+
+
+
